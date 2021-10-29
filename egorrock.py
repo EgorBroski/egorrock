@@ -16,7 +16,14 @@ while m not in [1,2]:
 if m==1:
     while 1:
         print("Mängime inimesega")
+        break
 elif m==2:
     while 1:
         print("Mängime robotiga")
+        break
+print("Mida valid?")
+vibor=int(input("Kivi-1,Käärid-2,Paber-3"))
+if vibor=="1":
+
+
 
